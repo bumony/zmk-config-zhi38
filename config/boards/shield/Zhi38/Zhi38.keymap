@@ -53,7 +53,7 @@
             // | --- |  ---  |  ---  | LCtrl |  !+[  | LSht  |  LAlt |  !+]  | LWin  |  ---  |  ---  |  --- | 
             bindings = <
             &none   &bt BT_SEL 1  &kp F9  &kp F10   &kp F11   &kp F12   &kp C_VOL_DN   &kp C_VOL_UP  &kp INS          &kp K_CMENU    &kp KP_NLCK    &none 
-            &none   &bt BT_SEL 3  &kp F5  &kp F6    &kp F7    &kp F8    &kp C_PREV     &kp C_NEXT    &kp PAUSE_BREAK  &kp PSCRN      &kp SLCK       &none 
+            &none   &bt BT_SEL 2  &kp F5  &kp F6    &kp F7    &kp F8    &kp C_PREV     &kp C_NEXT    &kp PAUSE_BREAK  &kp PSCRN      &kp SLCK       &none 
             &none   &bt BT_CLR    &kp F1  &kp F2    &kp F3    &kp F4    &kp C_MUTE     &kp C_PP      &to 0            &kp RC(RS(X))  &kp RC(RS(O))  &none 
             &none   &none         &none   &kp LCTRL &none     &kp LSHFT &kp LALT       &mo 5         &kp LWIN         &none          &none          &none
             >;

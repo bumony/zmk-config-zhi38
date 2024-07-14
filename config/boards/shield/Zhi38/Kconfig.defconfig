@@ -1,0 +1,6 @@
+if SHIELD_Zhi38
+
+config ZMK_KEYBOARD_NAME
+	default "Zhi38"
+
+endif

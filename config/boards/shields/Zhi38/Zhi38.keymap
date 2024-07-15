@@ -10,28 +10,28 @@
 
 		default_layer {
                 bindings = <
-            &none    &kp Q     &kp W     &kp E         &kp R       &kp T     &kp Y        &kp U       &kp I          &kp O       &kp P     &none
-            &none    &kp A     &kp S     &kp D         &kp F       &kp G     &kp H        &kp J       &kp K          &kp L       &kp ENTER &none 
-            &none    &kp Z     &kp X     &kp C         &kp V       &kp B     &kp N        &kp M       &lt 3 COMMA    &lt 4 DOT   &kp BSPC  &none
-            &none    &none     &none     &mt LCTRL ESC &lt 1 SPACE &kp LSHFT &mt LALT TAB &lt 2 SPACE &mt LWIN DEL   &C_RESET       &none     &none
+                &kp Q     &kp W     &kp E         &kp R       &kp T     &kp Y        &kp U       &kp I          &kp O       &kp P     
+                &kp A     &kp S     &kp D         &kp F       &kp G     &kp H        &kp J       &kp K          &kp L       &kp ENTER 
+                &kp Z     &kp X     &kp C         &kp V       &kp B     &kp N        &kp M       &lt 3 COMMA    &lt 4 DOT   &kp BSPC  
+                &none     &none     &mt LCTRL ESC &lt 1 SPACE &kp LSHFT &mt LALT TAB &lt 2 SPACE &mt LWIN DEL   &C_RESET       &none  
             >;
 		};
 
 		bt_layer {
                 bindings = <
-            &none  &kp TILDE &kp PRCNT &kp UNDER &kp CARET  &kp PLUS   &kp STAR   &kp HOME              &kp UP    &kp END    &kp PG_UP   &none 
-            &none  &kp AT    &kp DQT   &kp EXCL  &kp QMARK  &kp MINUS  &kp SLASH  &kp LEFT              &kp DOWN  &kp RIGHT  &kp PG_DN   &none 
-            &none  &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR   &kp EQUAL  &kp BSLH   &kp LS(LC(LA(SLASH))) &kp ESC   &kp TAB    &kp DEL     &none 
-            &none  &none     &none     &kp LCTRL &kp CAPS   &kp LSHFT  &kp LALT   &to 0                 &kp LWIN  &none      &none       &none
+              &kp TILDE &kp PRCNT &kp UNDER &kp CARET  &kp PLUS   &kp STAR   &kp HOME              &kp UP    &kp END    &kp PG_UP    
+              &kp AT    &kp DQT   &kp EXCL  &kp QMARK  &kp MINUS  &kp SLASH  &kp LEFT              &kp DOWN  &kp RIGHT  &kp PG_DN    
+              &kp LBKT  &kp RBKT  &kp LPAR  &kp RPAR   &kp EQUAL  &kp BSLH   &kp LS(LC(LA(SLASH))) &kp ESC   &kp TAB    &kp DEL      
+              &none     &none     &kp LCTRL &kp CAPS   &kp LSHFT  &kp LALT   &to 0                 &kp LWIN  &none      &none       
             >;
 		};
 
 		fn3_layer {
                  bindings = <
-            &none   &bt BT_SEL 1  &kp F9  &kp F10   &kp F11   &kp F12   &kp C_VOL_DN   &kp C_VOL_UP  &kp INS          &kp K_CMENU    &kp KP_NLCK    &none 
-            &none   &bt BT_SEL 2  &kp F5  &kp F6    &kp F7    &kp F8    &kp C_PREV     &kp C_NEXT    &kp PAUSE_BREAK  &kp PSCRN      &kp SLCK       &none 
-            &none   &bt BT_CLR    &kp F1  &kp F2    &kp F3    &kp F4    &kp C_MUTE     &kp C_PP      &to 0            &kp RC(RS(X))  &kp RC(RS(O))  &none 
-            &none   &none         &none   &kp LCTRL &none     &kp LSHFT &kp LALT       &mo 5         &kp LWIN         &none          &none          &none
+               &bt BT_SEL 1  &kp F9  &kp F10   &kp F11   &kp F12   &kp C_VOL_DN   &kp C_VOL_UP  &kp INS          &kp K_CMENU    &kp KP_NLCK     
+               &bt BT_SEL 2  &kp F5  &kp F6    &kp F7    &kp F8    &kp C_PREV     &kp C_NEXT    &kp PAUSE_BREAK  &kp PSCRN      &kp SLCK        
+               &bt BT_CLR    &kp F1  &kp F2    &kp F3    &kp F4    &kp C_MUTE     &kp C_PP      &to 0            &kp RC(RS(X))  &kp RC(RS(O))   
+               &none         &none   &kp LCTRL &none     &kp LSHFT &kp LALT       &mo 5         &kp LWIN         &none          &none          
             >;
 		};
 	};
